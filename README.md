@@ -9,17 +9,6 @@ Quatre notebooks qui reconstruisent pas à pas un petit modèle de langage au ni
 | `TP3_layernorm_et_mlp.ipynb` | LayerNorm codée à la main et validée contre PyTorch, MLP C → 4C → C, connexion résiduelle. |
 | `TP4_modele_complet.ipynb` | Assemblage complet : multi-têtes, blocs, embeddings de position, entraînement, génération de texte et expériences. |
 
-## Lancer les notebooks
-
-1. Ouvrir le notebook dans [Google Colab](https://colab.research.google.com) (*Fichier → Importer le notebook*).
-2. Pour le TP 4, activer le GPU : *Exécution → Modifier le type d'exécution → GPU*.
-3. Exécuter les cellules dans l'ordre (*Exécution → Tout exécuter*).
-
-Chaque notebook est indépendant et télécharge lui-même le corpus `input.txt`.
-
-**Dépendances :** Python 3, PyTorch, matplotlib (déjà installés dans Colab).
-
-**Durée indicative :** quelques secondes pour les TP 2 et 3, environ une minute pour le TP 1, et quelques minutes sur GPU pour le TP 4. Sur CPU, réduire `max_iters` et `exp_iters` dans le TP 4.
 
 ## Résultats principaux
 
